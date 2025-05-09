@@ -1,1 +1,1 @@
-from . import apriori, generate_rules
+from .main import apriori, generate_rules
