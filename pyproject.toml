@@ -1,0 +1,14 @@
+[project]
+name = "apriori_algorithm"
+version = "0.1.0"
+description = "A minimal implementation of the Apriori algorithm in Python"
+authors = [{ name = "Suryansh Shakya", email = "surushakya@proton.me" }]
+readme = "README.md"
+requires-python = ">=3.7"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
